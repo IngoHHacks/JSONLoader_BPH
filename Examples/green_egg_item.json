@@ -1,0 +1,60 @@
+{
+  "name": "Green Egg",
+  "itemType": [
+    "Accessory"
+  ],
+  "rarity": "Rare",
+  "costs": [
+    {
+      "type": "energy",
+      "baseValue": 1
+    }
+  ],
+  "movementEffects": [
+    {
+      "trigger": {
+        "trigger": "onUse"
+      },
+      "itemsToMove": [
+        "self"
+      ],
+      "movementAmount": {
+        "x": 0,
+        "y": 1
+      },
+      "movementType": "local",
+      "movementLength": "oneSpace"
+    },
+    {
+      "trigger": {
+        "trigger": "onUse"
+      },
+      "itemsToMove": [
+        "self"
+      ],
+      "rotationAmount": 180
+    }
+  ],
+  "modifiers": [
+    {
+      "descriptionKey": "/Activate the weapon backwards from the original tile",
+      "trigger": {
+        "trigger": "onUse"
+      },
+      "effects": [
+        {
+          "type": "Activate"
+        }
+      ],
+      "typesToModify": [
+        "Weapon"
+      ],
+      "areasToModify": [
+        "bottomRotation"
+      ],
+      "areaDistance": "adjacent",
+      "name": ""
+    }
+  ],
+  "spriteScale": 0.875
+}

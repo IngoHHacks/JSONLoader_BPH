@@ -1,0 +1,43 @@
+{
+  "name": "Yellow Egg",
+  "itemType": [
+    "Accessory"
+  ],
+  "validForCharacters": [
+     -1
+  ],
+  "rarity": "Rare",
+  "combatEffects": [
+    {
+      "trigger": {
+        "trigger": "onTurnEnd"
+      },
+      "effect": {
+        "type": "HP",
+        "value": 2,
+        "target": "player"
+      }
+    }
+  ],
+  "modifiers": [
+    {
+      "descriptionKey": "",
+      "trigger": {
+        "trigger": "onTurnEnd"
+      },
+      "effects": [
+        {
+          "type": "Destroy"
+        }
+      ],
+      "typesToModify": [
+        "Any"
+      ],
+      "areasToModify": [
+        "self"
+      ],
+      "name": ""
+    }
+  ],
+  "spriteScale": 0.875
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Orange Egg",
+  "itemType": [
+    "Accessory"
+  ],
+  "rarity": "Rare",
+  "playerAnimation": "UseItem",
+  "costs": [
+    {
+      "costModifiers": []
+    }
+  ],
+  "modifiers": [
+    {
+      "descriptionKey": "",
+      "trigger": {
+        "trigger": "onUse"
+      },
+      "effects": [
+        {
+          "type": "Destroy"
+        }
+      ],
+      "typesToModify": [
+        "Any"
+      ],
+      "areasToModify": [
+        "self"
+      ],
+      "name": ""
+    }
+  ],
+  "createEffects": [
+    {
+      "trigger": {
+        "trigger": "onUse"
+      },
+      "createType": "inOpenSpace",
+      "areasToCreateTheItem": [
+        "adjacent"
+      ],
+      "itemsToCreateReference": [
+        "Yellow Egg"
+      ],
+      "descriptor": "/Creates Yellow Eggs in all free adjacent spaces"
+    }
+  ],
+  "spriteScale": 0.875
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Red Egg",
+  "itemType": [
+    "Accessory"
+  ],
+  "rarity": "Rare",
+  "validForCharacters": [
+    "Purse",
+    "Satchel",
+    "Tote"
+  ],
+  "combatEffects": [
+    {
+      "trigger": {
+        "trigger": "onTurnStart"
+      },
+      "effect": {
+        "type": "AP",
+        "value": 2
+      }
+    }
+  ],
+  "modifiers": [
+    {
+      "descriptionKey": "",
+      "trigger": {
+        "trigger": "constantEarly"
+      },
+      "effects": [
+        {
+          "type": "Damage",
+          "value": -0.5,
+          "mathematicalType": "multiplicative"
+        }
+      ],
+      "typesToModify": [
+        "Weapon"
+      ],
+      "areasToModify": [
+        "board"
+      ],
+      "name": ""
+    }
+  ],
+  "spriteScale": 0.875
+}

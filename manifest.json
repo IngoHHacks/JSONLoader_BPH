@@ -1,0 +1,10 @@
+{
+  "namespace": "IngoH",
+  "name": "JSONLoader_BPH",
+  "description": "Create items using JSON files",
+  "version_number": "0.1.0",
+  "dependencies": [
+    "LavaGang-MelonLoader-0.5.7"
+  ],
+  "website_url": "https://github.com/IngoHHacks/JSONLoader_BPH"
+}
